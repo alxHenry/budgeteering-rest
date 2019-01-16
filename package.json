@@ -1,0 +1,21 @@
+{
+  "name": "node-express-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "debug": "node --inspect-brk dist/src"
+  },
+  "author": "Alex Henry",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "typescript": "^3.2.2"
+  },
+  "devDependencies": {
+    "tslint": "^5.12.1"
+  }
+}
