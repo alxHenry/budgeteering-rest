@@ -11,9 +11,12 @@
   "author": "Alex Henry",
   "license": "ISC",
   "dependencies": {
+    "@types/express-session": "^1.15.11",
     "body-parser": "^1.18.3",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "memorystore": "^1.6.0",
     "typescript": "^3.2.2"
   },
   "devDependencies": {
